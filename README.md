@@ -9,8 +9,15 @@ increasing each round.
 The purpose of this challenge is to apply javascript logic and Document Object Model manipulation to create a real game.
 I will also be using jQuery as a supplement to practice using other libraries instead of plain vanilla js.
 
-<h2>Step 1 - Link JS and JQuery to html <h2>
+<h2>Step 1 - Link JS and JQuery to html </h2>
 <ol>
 <li>Link JS using script tag</li>
-<li>Link Jquery using google CDN<li>
+<li>Link Jquery using google CDN</li>
+</ol>
+
+<h2>Step 2 - Create a new Pattern </h2>
+<ol>
+<li>create a function that will return a number between 0-3</li>
+<li>create an array called buttonColors and gamePattern</li>
+<li>create a var named randomChosenColor and add it to the end of the gamePattern</li>
 </ol>
