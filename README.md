@@ -51,3 +51,7 @@ I will also be using jQuery as a supplement to practice using other libraries in
     <p>Tip: use the Set Timeout function with 100ms to simulate a flash</p>
 </ol>
 
+<h2>Step 7 Start the Game ! </h2>
+<ol>
+    <li>Use Jquery to detect when a keyboard key has been pressed, when that happens for the first time call nextSequence()</li>
+</ol>
