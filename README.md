@@ -36,3 +36,18 @@ I will also be using jQuery as a supplement to practice using other libraries in
     <li>create an array for the User clicked Pattern</li>
     <li>append or push the UserChosenColor to the User Clicked Pattern Array</li>
 </ol>
+
+<h2>Step 5 - Add sounds to Button Clicks</h2>
+<ol>
+    <li>Create a new function called playSound() that takes an input parameter called name</li>
+    <li>Take the code we used to play sound and move it to playSound</li>
+    <li>Allow the function to work for whether a random color or user color clicks a button</li>
+</ol>
+<h2>Step 6 Add Animations to User Clicks</h2>
+<ol>
+    <li>Create a new function called AnimatePress() it should take a single parameter called currentColor.</li>
+    <li>consider css style '.pressed' that adds a box shadow and changes background color to grey</li>
+    <li>Use JQuery to add the .pressed class to the button that gets clicked inside animatePress()</li>
+    <p>Tip: use the Set Timeout function with 100ms to simulate a flash</p>
+</ol>
+
