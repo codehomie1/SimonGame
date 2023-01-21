@@ -51,7 +51,24 @@ I will also be using jQuery as a supplement to practice using other libraries in
     <p>Tip: use the Set Timeout function with 100ms to simulate a flash</p>
 </ol>
 
-<h2>Step 7 Start the Game ! </h2>
+<h2>Step 7 Start the Game and check against game sequence </h2>
 <ol>
     <li>Use Jquery to detect when a keyboard key has been pressed, when that happens for the first time call nextSequence()</li>
+    <li>create a function called checkAnswer passing in the index of the last answer in the users sequence. The input should be called currentLevel</li>
+    <li>write an if statement inside checkAnswer to check if the most recent user answer is the same as the gamepattern. If so log success else log wrong.</li>
+    <li>log the userClickedPattern with the gamePattern in Chrome Developer tools to check if your code is preforming as you would expect.</li>
+    <li>Call nextsequence after a 1000 miliSec delay and reset the userClickedPattern array for the next level</li>
 </ol>
+
+<h2>Step 8: Game Over</h2>
+<li> Use the wrong.mp3 file in the sounds folder to play a sound when the user gets the anwser wrong</li>
+<li> apply the css style game-over to the body's class and remove it after 200 miliSecs using SetTimeOut function</li>
+<li>change h1 title to say something like Game Over and press key to restart</li>
+
+<h2>Step 9: Restart Game</h2>
+<li> Create function called startOver()</li>
+<li>Call startOver if the User gets the sequence wrong</li>
+<li>Inside the function reset level=0, gamePattern=[] and started=false to restart game</li>
+<li>Use this function in the checkAnswer function when the gamepattern doesnt match the userPattern</li>
+
+<h3>And just like that you have completed the SimonSays game!</h3>
